@@ -11,8 +11,7 @@ Static (Level 0; pre-tiled) implementation of IIIF Image Server
 
 ## libvipsでpre-tiled
 ```sh
-cd public/iiif
-vips dzsave squirrel.tif squirrel --layout iiif3
+vips dzsave src/images/squirrel.tif public/iiif/squirrel --layout iiif3
 # vips dzsave <original file> <output directory> --layout iiif3
 ```
 - デフォルトで倍率は4通りになっているが，自分で指定できる？
