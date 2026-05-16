@@ -1,0 +1,15 @@
+{
+  "@context": "http://iiif.io/api/image/3/context.json",
+  "id": "iiif/squirrel",
+  "type": "ImageService3",
+  "profile": "level0",
+  "protocol": "http://iiif.io/api/image",
+  "tiles": [
+    {
+      "scaleFactors": [1, 2, 4, 8],
+      "width": 512
+    }
+  ],
+  "width": 3888,
+  "height": 3888
+}
