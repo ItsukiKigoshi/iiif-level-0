@@ -1,5 +1,5 @@
 # iiif-level-0
-Static (Level 0; pre-tiled?) implementation of IIIF Image Server using Cloudflare R2
+Static (Level 0; pre-tiled) implementation of IIIF Image Server
 
 ## IIIF Level 0
 - [API Docs](https://iiif.io/api/image/3.0/compliance/#5-level-0-compliance)
@@ -15,6 +15,7 @@ cd public/iiif
 vips dzsave squirrel.tif squirrel --layout iiif3
 # vips dzsave <original file> <output directory> --layout iiif3
 ```
+- デフォルトで倍率は4通りになっているが，自分で指定できる？
 
 ## Examples of Level 0 IIIF
 - https://collections.csntm.org/search
