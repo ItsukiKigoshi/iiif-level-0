@@ -39,6 +39,8 @@ export function App() {
   return (
     <article style={{ padding: "20px" }}>
       <h1>Static IIIF (Level 0) with Viewers Comparison</h1>
+      <p>Vite+Preact+pnpm</p>
+      <a href="https://github.com/ItsukiKigoshi/iiif-level-0">GitHub Repo</a>
 
       <section>
         <h2>1. Clover IIIF</h2>
