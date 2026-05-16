@@ -9,7 +9,7 @@ Static (Level 0; pre-tiled) implementation of IIIF Image Server
 - [vips](https://www.libvips.org/): 画像をLevel 0に対応する用に切り刻む ([Docs](https://www.libvips.org/API/current/making-image-pyramids.html))
   - [custom regions](https://iiif.io/api/cookbook/recipe/0299-region/)には対応していないらしい
 
-## vip0でpre-tiled
+## vipでpre-tiled
 ```sh
 cd public/iiif
 vips dzsave squirrel.tif squirrel --layout iiif3
