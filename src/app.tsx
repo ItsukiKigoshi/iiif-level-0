@@ -6,10 +6,11 @@ import Mirador from "mirador";
 import Tify from "tify";
 import "tify/dist/tify.css";
 import { init as initUV } from "universalviewer";
-import 'universalviewer/dist/esm/index.css';
+import "universalviewer/dist/esm/index.css";
 
 export function App() {
-  const manifest = "/iiif/squirrel/manifest.json";
+  const imageLocation = "/iiif-level-0/iiif/squirrel";
+  const manifest = `${imageLocation}/manifest.json`;
 
   const uvRef = useRef(null);
 
@@ -42,7 +43,7 @@ export function App() {
       <section>
         <h2>1. Clover IIIF</h2>
         <div style={{ height: "500px" }}>
-          <Image src="/iiif/squirrel" isTiledImage={true} />
+          <Image src={imageLocation} isTiledImage={true} />
         </div>
       </section>
 
